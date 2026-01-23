@@ -3,32 +3,18 @@
 ## 🗂 Overview
 DisasterVLP is a vision-language framework designed to perceive disaster damages from bi-temporal street-view images. It leverages large language models and contrastive learning to assess disaster severity and generate descriptive captions.
 
-## 📊 Dataset
-**Citation**:  
-Yang, Yifan (2025). *Perceiving Multidimensional Disaster Damages from Street–View Images Using Visual–Language Models*. figshare. Dataset.  
-https://doi.org/10.6084/m9.figshare.28801208.v2
-
 ---
+## 🌍 Conference Presentation (ICC 2025)
 
-## 📄 Paper Citation
-If you use this code or dataset in your research, please cite:
+This work was **accepted for presentation** at the **32nd International Cartographic Conference (ICC 2025)**.
 
-Yang, Y., and Zou, L. (2025).  
-*Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models*.  
-**Abstracts of the International Cartographic Association**, 10, 310.  
-https://doi.org/10.5194/ica-abs-10-310-2025
-
----
-
-## 🧠 Overview (Detailed)
-**DisasterVLP** is a vision-language framework that leverages pre- and post-disaster street-view images to perceive and classify disaster damage severity. The model integrates large vision-language models like CLIP, BLIP, and GPT to perform visual-language grounding and disaster impact estimation.
-
----
-
-## 📊 Dataset (Detailed)
-Yang, Yifan (2025). *Perceiving Multidimensional Disaster Damages from Street–View Images Using Visual–Language Models*. figshare.  
-**DOI**: https://doi.org/10.6084/m9.figshare.28801208.v2
-
+- **Conference:** 32nd International Cartographic Conference (ICC 2025)  
+- **Dates:** August 17–22, 2025  
+- **Location:** Vancouver, Canada  
+- **Session:** Student Paper Session  
+- **Presentation Title:** *Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models*  
+- **Publication:** *Abstracts of the International Cartographic Association, Volume 10, 310, 2025* (DOI: 10.5194/ica-abs-10-310-2025)  
+- **Award:** Best Student Paper Award — ICC 2025
 ---
 
 ## 🧱 Framework Overview
@@ -53,12 +39,18 @@ Yang, Yifan (2025). *Perceiving Multidimensional Disaster Damages from Street–
 ![Label Result](figure/label%20result.drawio.png)
 
 ---
+## 📊 Dataset
+**Citation**:  
+Yang, Yifan (2025). *Perceiving Multidimensional Disaster Damages from Street–View Images Using Visual–Language Models*. figshare. Dataset.  
+https://doi.org/10.6084/m9.figshare.28801208.v2
 
-## 🚀 Getting Started
+---
 
-### 🔧 Installation
-```bash
-git clone https://github.com/rayford295/DisasterVLP.git
-cd DisasterVLP
-pip install -r requirements.txt
+## 📄 Paper Citation
+If you use this code or dataset in your research, please cite:
+
+Yang, Y., and Zou, L. (2025).  
+*Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models*.  
+**Abstracts of the International Cartographic Association**, 10, 310.  
+https://doi.org/10.5194/ica-abs-10-310-2025
 
