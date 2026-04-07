@@ -1,56 +1,71 @@
-# DisasterVLP: Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual–Language Models
+# DisasterVLP
 
-## 🗂 Overview
-DisasterVLP is a vision-language framework designed to perceive disaster damages from bi-temporal street-view images. It leverages large language models and contrastive learning to assess disaster severity and generate descriptive captions.
+**Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models**
 
----
-## 🌍 Conference Presentation (ICC 2025)
-
-This work was **accepted for presentation** at the **32nd International Cartographic Conference (ICC 2025)**.
-
-- **Conference:** 32nd International Cartographic Conference (ICC 2025)  
-- **Dates:** August 17–22, 2025  
-- **Location:** Vancouver, Canada  
-- **Session:** Student Paper Session  
-- **Presentation Title:** *Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models*  
-- **Publication:** *Abstracts of the International Cartographic Association, Volume 10, 310, 2025* (DOI: 10.5194/ica-abs-10-310-2025)  
-- **Award:** Best Student Paper Award — ICC 2025
----
-
-## 🧱 Framework Overview
-
-### 🔍 Overall Structure
-![Overall Framework](figure/overall%20framework.drawio.png)
-
-### 🔬 Phase 2: Pseudo Post-Disaster Generation
-![Phase 2](figure/phase2.drawio.png)
-
-### 📊 Phase 3: Multi-modal Disaster Perception
-![Phase 3](figure/phase3.drawio.png)
+[![ICA](https://img.shields.io/badge/ICA%20Abstracts-10.5194%2Fica--abs--10--310--2025-blue.svg)](https://doi.org/10.5194/ica-abs-10-310-2025)
+[![Dataset](https://img.shields.io/badge/Dataset-Figshare-blue)](https://doi.org/10.6084/m9.figshare.28801208.v2)
 
 ---
 
-## 🌍 Study Area
-![Study Area](figure/llm_studyarea.drawio%20(1).png)
+## Overview
+
+DisasterVLP is a vision-language framework for perceiving disaster damages from bi-temporal street-view imagery. It combines **large language models** and **contrastive learning** to assess disaster severity and generate descriptive damage captions across multiple dimensions.
 
 ---
 
-## 🧪 Label Results Example
-![Label Result](figure/label%20result.drawio.png)
+## Framework
+
+| Overall Structure | Phase 2: Pseudo Post-Disaster Generation |
+|:---:|:---:|
+| <img src="figure/overall%20framework.drawio.png" width="340"/> | <img src="figure/phase2.drawio.png" width="340"/> |
+
+**Phase 3: Multi-modal Disaster Perception**
+<p align="center">
+  <img src="figure/phase3.drawio.png" width="700"/>
+</p>
 
 ---
-## 📊 Dataset
-**Citation**:  
-Yang, Yifan (2025). *Perceiving Multidimensional Disaster Damages from Street–View Images Using Visual–Language Models*. figshare. Dataset.  
-https://doi.org/10.6084/m9.figshare.28801208.v2
+
+## Study Area & Label Examples
+
+| Study Area | Label Results |
+|:---:|:---:|
+| <img src="figure/llm_studyarea.drawio%20(1).png" width="340"/> | <img src="figure/label%20result.drawio.png" width="340"/> |
 
 ---
 
-## 📄 Paper Citation
-If you use this code or dataset in your research, please cite:
+## Dataset
 
-Yang, Y., and Zou, L. (2025).  
-*Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models*.  
-**Abstracts of the International Cartographic Association**, 10, 310.  
-https://doi.org/10.5194/ica-abs-10-310-2025
+Yang, Yifan (2025). *Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models*. figshare.
+[10.6084/m9.figshare.28801208.v2](https://doi.org/10.6084/m9.figshare.28801208.v2)
 
+---
+
+## Recognition
+
+Presented at the **32nd International Cartographic Conference (ICC 2025)**, Vancouver, Canada — August 17–22, 2025
+**Best Student Paper Award**
+
+---
+
+## Citation
+
+```bibtex
+@article{yang2025disastervlp,
+  author  = {Yang, Yifan and Zou, Lei},
+  title   = {Perceiving Multidimensional Disaster Damages from Street-View Images
+             Using Visual-Language Models},
+  journal = {Abstracts of the International Cartographic Association},
+  volume  = {10},
+  pages   = {310},
+  year    = {2025},
+  doi     = {10.5194/ica-abs-10-310-2025}
+}
+```
+
+---
+
+## Contact
+
+**Yifan Yang** — Department of Geography, Texas A&M University
+[yyang295@tamu.edu](mailto:yyang295@tamu.edu) · [rayford295.github.io](https://rayford295.github.io)
